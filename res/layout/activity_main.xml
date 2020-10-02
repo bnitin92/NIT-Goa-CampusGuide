@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/and_wallpaper"
+    android:orientation="vertical" >
+
+<LinearLayout 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:layout_weight="1">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/gmaps"
+        android:onClick="OpenMap"
+        android:text="Campus Map" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/news_icon"
+        android:onClick="CNews"
+        android:text="Campus News" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:layout_weight="1" >
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/roomalloc"
+        android:text="Room Location" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/icon_intellisearch"
+        android:onClick="OpenSearch"
+        android:text="People Search" />
+
+</LinearLayout>
+</LinearLayout>
